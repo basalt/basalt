@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Runs a command in a virtualenv, then deactivates the
+# environment again.
+
+VENV=$1
+if [ -z $VENV ]; then
+    echo "usage: $0 [virtualenv_path] CMDS"
+    exit 1
+fi
+
+. ${VENV}/bin/activate
+shift 1
+
+echo "Executing $@ in ${VENV}"
+exec "$@"
+
+deactivate
