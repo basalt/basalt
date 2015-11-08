@@ -1,5 +1,22 @@
 # basalt
 
+basalt allows you to build parameterized packages for Linux (and even OSX or FreeBSD). This is very handy, if you want to build several packages of one project for different customers, or if you need to build packages with small differences for several hosts.
+
+To build packages you basically need a [YAML config](https://github.com/basalt/go-get-a-martini-bottle/blob/master/hello_martini/configs/go.dajool.com.yaml) and a [build file](https://github.com/basalt/go-get-a-martini-bottle/blob/master/hello_martini/tasks.py). In this example, the package is generated with `invoke build_deb --config configs/go.dajool.com.yaml` and packages a go application with all the configes needed. Even the webserver config is generated with the information from the YAML file and a post-install-script takes care of the server reload.
+
+## A dwarf - standing on the shoulders of giants
+
+basalt makes havy usage of [invoke](https://github.com/pyinvoke/invoke) and [fpm](https://github.com/jordansissel/fpm/wiki) for the package generation.
+
+## The history of basalt
+
+basalt came to with this tree blog posts:
+
+1. [Cup-Recipe For (Django) Python Deployment - Or How To Make Your Admin Happy](https://brejoc.com/cup-recipe-for-django-python-deployment-or-how-to-make-your-admin-happy/)
+2. [Cup-Recipe For (Django) Python Deployment Part 2 - Detailed Overview](https://brejoc.com/cup-recipe-for-django-python-deployment-part-2-detailed-overview/)
+3. [Cup-Recipe For (Django) Python Deployment Part 3 - Deployment](https://brejoc.com/cup-recipe-for-django-python-deployment-part-3-deployment/)
+
+
 
 ## Installation
 
