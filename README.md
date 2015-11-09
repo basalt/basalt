@@ -10,7 +10,7 @@ basalt makes havy usage of [invoke](https://github.com/pyinvoke/invoke) and [fpm
 
 ## The history of basalt
 
-basalt came to with this tree blog posts:
+basalt came to being with this tree blog posts:
 
 1. [Cup-Recipe For (Django) Python Deployment - Or How To Make Your Admin Happy](https://brejoc.com/cup-recipe-for-django-python-deployment-or-how-to-make-your-admin-happy/)
 2. [Cup-Recipe For (Django) Python Deployment Part 2 - Detailed Overview](https://brejoc.com/cup-recipe-for-django-python-deployment-part-2-detailed-overview/)
