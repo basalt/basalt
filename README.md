@@ -30,7 +30,7 @@ Just download and install [this package](http://pelicanbay.de/pool/main/p/pelica
 
 ### From source
 
-Since I tried to avoid the chicken and egg problem, you won't need basalt to generate packages for basalt. But you'll have to install [fpm](https://github.com/jordansissel/fpm). Usually it should be enough to just install ruby and then execute `gem install fpm`. I not sure, but you might also need to install `build-essential` for some of the packages.
+Since I tried to avoid the chicken and egg problem, you won't need basalt to generate packages for basalt. But you'll have to install [fpm](https://github.com/jordansissel/fpm). Usually it should be enough to just install ruby and then execute `gem install fpm`. I'm not sure, but you might also need to install `build-essential` for some of the packages.
 
 #### Packaging the dependencies
 
