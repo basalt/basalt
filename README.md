@@ -6,7 +6,7 @@ To build packages you basically need a [YAML config](https://github.com/basalt/g
 
 ## A dwarf - standing on the shoulders of giants
 
-basalt makes havy usage of [invoke](https://github.com/pyinvoke/invoke) and [fpm](https://github.com/jordansissel/fpm/wiki) for the package generation.
+basalt makes heavy usage of [invoke](https://github.com/pyinvoke/invoke) and [fpm](https://github.com/jordansissel/fpm/wiki) for the package generation.
 
 ## The history of basalt
 
